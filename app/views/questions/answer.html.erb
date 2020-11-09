@@ -1,0 +1,19 @@
+<div class="question">
+  <%= params['question'] %>
+  <br>
+  <em>- You</em>
+</div>
+
+<br>
+<br>
+
+<div class="answer">
+  <strong><%= @question %></strong>
+  <br>
+  <em>- Your coach</em>
+</div>
+
+<br>
+<br>
+
+<%= link_to "Ask a new question", ask_path %>
